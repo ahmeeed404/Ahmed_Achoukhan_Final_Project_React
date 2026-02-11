@@ -1,4 +1,4 @@
-import images from "../constant";
+import images from "../../constant";
 import { FaChevronRight } from "react-icons/fa";
 import { FaChevronLeft } from "react-icons/fa";
 function CarouselHome() {
