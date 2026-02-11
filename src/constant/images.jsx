@@ -2,7 +2,7 @@ import banner02 from '../assets/images/banner-02.jpg';
 import banner7 from '../assets/images/banner-07.jpg';
 import banner8 from '../assets/images/banner-08.jpg';
 import banner from '../assets/images/banner.webp';
-import bgVideo from '../assets/images/bg_video_01.jpg.webp';
+import bgVideo from '../assets/images/bg-video-01.jpg.webp';
 import card1 from '../assets/images/cards1.webp';
 import card2 from '../assets/images/cards2.webp';
 import card3 from '../assets/images/cards3.webp';
@@ -15,8 +15,8 @@ import blog3 from '../assets/images/blog-03.jpg';
 import carousel1 from '../assets/images/carousel1.jpg';
 import carousel2 from '../assets/images/carousel2.jpg';
 import carousel3 from '../assets/images/carousel3.webp';
-import discover from '../assets/images/discover.jpg.webp';
-import express from '../assets/images/express.jpg.webp';
+import discover from '../assets/images/discover.png.webp';
+import express from '../assets/images/express.png.webp';
 import gallery3 from '../assets/images/gallery-03.jpg';
 import gallery7 from '../assets/images/gallery-07.jpg';
 import gallery9 from '../assets/images/gallery-09.jpg';
@@ -33,15 +33,15 @@ import itemCart3 from '../assets/images/item-cart-03.jpg';
 import logo from '../assets/images/logo.png.webp';
 import masterCard from '../assets/images/mastercard.png.webp';
 import paypal from '../assets/images/paypal.png.webp';
-import shop from '../assets/images/shop-item-01.jpg';
-import shopi2 from '../assets/images/shop-item-02.webp';
-import shopy3 from '../assets/images/shop-item-03.webp';
-import shopy4 from '../assets/images/shop-item-04.webp';
-import shopy5 from '../assets/images/shop-item-05.webp';
-import shopy6 from '../assets/images/shop-item-06.webp';
-import shopy7 from '../assets/images/shop-item-07.webp';
-import shopy8 from '../assets/images/shop-item-08.webp';
-import visa from '../assets/images/visa.jpg.webp';
+import shop from '../assets/images/shop-item-09.jpg';
+import shopi2 from '../assets/images/shopi2.webp';
+import shopy3 from '../assets/images/shopy3.webp';
+import shopy4 from "../assets/images/shopy4.webp"
+import shopy5 from '../assets/images/shopy5.webp';
+import shopy6 from '../assets/images/shopy6.webp';
+import shopy7 from '../assets/images/shopy7.webp';
+import shopy8 from '../assets/images/shopy8.webp';
+import visa from '../assets/images/visa.png.webp';
 
 export const images = {
   banner02,
