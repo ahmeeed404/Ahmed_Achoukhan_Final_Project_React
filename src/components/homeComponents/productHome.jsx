@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import { homeData } from "../../data/home";
+import { homeData } from "../../data/home/home";
 
 function FeaturedCarousel() {
   const products = homeData.featuredProducts || [];

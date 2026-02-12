@@ -1,0 +1,78 @@
+import images from "../../constant";
+
+const products = [
+  {
+    id: 1,
+    title: "Boxy T-Shirt with Roll Sleeve",
+    category: "Women",
+    price: 30,
+    oldPrice: null,
+    sale: false,
+    image: images.shopi2,
+  },
+  {
+    id: 2,
+    title: "Classic Denim Jacket",
+    category: "Men",
+    price: 55,
+    oldPrice: null,
+    sale: false,
+    image: images.shopy3,
+  },
+  {
+    id: 3,
+    title: "Slim Fit Cotton Shirt",
+    category: "Men",
+    price: 20,
+    oldPrice: 30,
+    sale: true,
+    image: images.shopy4,
+  },
+  {
+    id: 4,
+    title: "Summer Floral Dress",
+    category: "Women",
+    price: 45,
+    oldPrice: null,
+    sale: false,
+    image: images.shopy5,
+  },
+  {
+    id: 5,
+    title: "Oversized Hoodie",
+    category: "Best Seller",
+    price: 35,
+    oldPrice: null,
+    sale: false,
+    image: images.shopy6,
+  },
+  {
+    id: 6,
+    title: "Casual Sneakers",
+    category: "Featured",
+    price: 60,
+    oldPrice: 75,
+    sale: true,
+    image: images.shopy7,
+  },
+  {
+    id: 7,
+    title: "Basic Crewneck Tee",
+    category: "Women",
+    price: 18,
+    oldPrice: null,
+    sale: false,
+    image: images.shopy8,
+  },
+  {
+    id: 8,
+    title: "Modern Leather Bag",
+    category: "Featured",
+    price: 80,
+    oldPrice: null,
+    sale: false,
+    image: images.shop,
+  },
+];
+
+export default products;

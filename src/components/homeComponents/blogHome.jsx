@@ -1,4 +1,4 @@
-import { homeData } from "../../data/home";
+import { homeData } from "../../data/home/home";
 
 function BlogHome() {
   const { blogPosts } = homeData;

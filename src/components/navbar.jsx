@@ -44,7 +44,7 @@ function Navbar() {
                 </div>
                 <div className="flex gap-5">
                     <Link to= "/" className=" hover:text-[#e65540]" href="" >Home</Link>
-                    <Link className=" hover:text-[#e65540]" href="">Shop</Link>
+                    <Link to={"shop"} className=" hover:text-[#e65540]" href="">Shop</Link>
                     <Link className=" hover:text-[#e65540]" href="">Sale</Link>
                     <Link className=" hover:text-[#e65540]" href="">Features</Link>
                     <Link className=" hover:text-[#e65540]" href="">Blog</Link>
@@ -55,7 +55,6 @@ function Navbar() {
                     <a className="text-4xl text-gray-500" href=""><FaRegUserCircle/></a>
                     <span className="w-0.5 h-5 bg-gray-500"></span>
                     <a className="text-4xl text-gray-500" href=""><MdOutlineShoppingBag/></a>
-
                 </div>
             </div>
 
