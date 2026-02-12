@@ -10,7 +10,7 @@ function BannerHome() {
                       <img
                         src={images.card1}
                         alt=""
-                        className="w-full h-[530px] object-cover hover:scale-105 transition duration-500"
+                        className="w-full h-132.5 object-cover hover:scale-105 transition duration-500"
                       />
                       <button className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
                         DRESSE
@@ -21,7 +21,7 @@ function BannerHome() {
                       <img
                         src={images.card4}
                         alt=""
-                        className="w-full h-[350px] object-cover hover:scale-105 transition duration-500"
+                        className="w-full h-87.5 object-cover hover:scale-105 transition duration-500"
                       />
                       <button className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
                         SUNGLASSES
@@ -34,7 +34,7 @@ function BannerHome() {
                       <img
                         src={images.card2}
                         alt=""
-                        className="w-full h-[350px] object-cover hover:scale-105 transition duration-500"
+                        className="w-full h-87.5 object-cover hover:scale-105 transition duration-500"
                       />
                       <button className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
                         WATCHES
@@ -45,7 +45,7 @@ function BannerHome() {
                       <img
                         src={images.card5}
                         alt=""
-                        className="w-full h-[530px] object-cover hover:scale-105 transition duration-500"
+                        className="w-full h-132.5 object-cover hover:scale-105 transition duration-500"
                       />
                       <button className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
                         FOOTERWEAR
@@ -58,7 +58,7 @@ function BannerHome() {
                       <img
                         src={images.card3}
                         alt=""
-                        className="w-full h-[530px] object-cover hover:scale-105 transition duration-500"
+                        className="w-full h-132.5 object-cover hover:scale-105 transition duration-500"
                       />
                       <button className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
                         BAGS
@@ -69,7 +69,7 @@ function BannerHome() {
                       <img
                         src={images.card6}
                         alt=""
-                        className="w-full h-[350px] object-cover hover:scale-105 transition duration-500"
+                        className="w-full h-87.5 object-cover hover:scale-105 transition duration-500"
                       />
                       <button className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
                         ACCESSORIES

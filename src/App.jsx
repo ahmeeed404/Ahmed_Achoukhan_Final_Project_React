@@ -4,9 +4,8 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/home";
 import Navbar from "./components/navbar";
-import images from "./constant";
-import CarouselHome from "./components/homeComponents/homeCarousel";
-import BannerHome from "./components/homeComponents/bannerHome";
+// import { footer } from "framer-motion/client";
+
 function App() {
   return (
     <Routes>
