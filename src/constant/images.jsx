@@ -36,7 +36,8 @@ import paypal from '../assets/images/paypal.png.webp';
 import shop from '../assets/images/shop-item-09.jpg';
 import shopi2 from '../assets/images/shopi2.webp';
 import shopy3 from '../assets/images/shopy3.webp';
-import shopy4 from "../assets/images/shopy4.webp"
+// import shopy4 from "../assets/images/shopy4.webp";
+import shopy4 from "../assets/images/shopy4.webp";
 import shopy5 from '../assets/images/shopy5.webp';
 import shopy6 from '../assets/images/shopy6.webp';
 import shopy7 from '../assets/images/shopy7.webp';

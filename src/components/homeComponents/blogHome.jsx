@@ -1,6 +1,9 @@
 import { homeData } from "../../data/home/home";
+import { useNavigate } from "react-router-dom";
 
 function BlogHome() {
+  const navigate = useNavigate();
+
   const { blogPosts } = homeData;
 
   return (
@@ -17,7 +20,8 @@ function BlogHome() {
             <div key={post.id} className="group">
 
               <div className="overflow-hidden ">
-                <img
+                <img 
+                onClick={() => navigate("/blog")}
                   src={post.image}
                   alt={post.title}
                   className="w-full h-65 object-cover group-hover:scale-105 transition duration-500"

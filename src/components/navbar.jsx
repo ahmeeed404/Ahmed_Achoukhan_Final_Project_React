@@ -47,14 +47,14 @@ function Navbar() {
                     <Link to={"/shop/"} className=" hover:text-[#e65540]" href="">Shop</Link>
                     <Link to={"/sale/"} className=" hover:text-[#e65540]" href="">Sale</Link>
                     <Link to={"/featured/"} className=" hover:text-[#e65540]" href="">Features</Link>
-                    <Link to={"/Blog/"} className=" hover:text-[#e65540]" href="">Blog</Link>
-                    <Link className=" hover:text-[#e65540]" href="">About</Link>
+                    <Link to={"/blog/"} className=" hover:text-[#e65540]" href="">Blog</Link>
+                    <Link to={"/about"} className=" hover:text-[#e65540]" href="">About</Link>
                     <Link to={"/contact"} className=" hover:text-[#e65540]" href="">Contact</Link>
                 </div>
                 <div className="flex items-center gap-5">
-                    <a className="text-4xl text-gray-500" href=""><FaRegUserCircle/></a>
+                    <Link className="text-2xl text-gray-500" href=""><FaRegUserCircle/></Link>
                     <span className="w-0.5 h-5 bg-gray-500"></span>
-                    <a className="text-4xl text-gray-500" href=""><MdOutlineShoppingBag/></a>
+                    <Link className="text-2xl text-gray-500" href=""><MdOutlineShoppingBag/></Link>
                 </div>
             </div>
 

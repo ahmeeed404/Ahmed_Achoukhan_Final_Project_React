@@ -1,4 +1,5 @@
 import images from "../../constant";
+import { Link } from "react-router-dom";
 
 function BannerHome() {
     return(
@@ -12,9 +13,9 @@ function BannerHome() {
                         alt=""
                         className="w-full h-132.5 object-cover hover:scale-105 transition duration-500"
                       />
-                      <button className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
+                      <Link to={"/shop"} className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
                         DRESSE
-                      </button>
+                      </Link>
                     </div>
         
                     <div className="relative overflow-hidden">
@@ -23,9 +24,9 @@ function BannerHome() {
                         alt=""
                         className="w-full h-87.5 object-cover hover:scale-105 transition duration-500"
                       />
-                      <button className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
+                      <Link to={"/shop"} className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
                         SUNGLASSES
-                      </button>
+                      </Link>
                     </div>
                   </div>
         
@@ -36,9 +37,9 @@ function BannerHome() {
                         alt=""
                         className="w-full h-87.5 object-cover hover:scale-105 transition duration-500"
                       />
-                      <button className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
+                      <Link to={"/shop"} className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
                         WATCHES
-                      </button>
+                      </Link>
                     </div>
         
                     <div className="relative overflow-hidden">
@@ -47,9 +48,9 @@ function BannerHome() {
                         alt=""
                         className="w-full h-132.5 object-cover hover:scale-105 transition duration-500"
                       />
-                      <button className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
+                      <Link to={"/shop"} className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
                         FOOTERWEAR
-                      </button>
+                      </Link>
                     </div>
                   </div>
         
@@ -60,9 +61,9 @@ function BannerHome() {
                         alt=""
                         className="w-full h-132.5 object-cover hover:scale-105 transition duration-500"
                       />
-                      <button className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
+                      <Link to={"/shop"} className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
                         BAGS
-                      </button>
+                      </Link>
                     </div>
         
                     <div className="relative overflow-hidden">
@@ -71,9 +72,9 @@ function BannerHome() {
                         alt=""
                         className="w-full h-87.5 object-cover hover:scale-105 transition duration-500"
                       />
-                      <button className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
+                      <Link to={"/shop"} className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-black px-5 py-2 font-semibold">
                         ACCESSORIES
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
