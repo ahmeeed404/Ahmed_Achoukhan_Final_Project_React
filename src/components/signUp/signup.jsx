@@ -82,8 +82,8 @@ function Signup() {
             <Navbar />
             <div className="p-10 flex flex-col gap-y-10">
                 <div className="flex gap-2 items-center">
-                    <a className="flex items-center hover:text-[#e65540]" href="">Home <IoChevronForwardSharp /></a>
-                    <a className="hover:text-[#e65540]" href="">Create Account</a>
+                    <Link className="flex items-center hover:text-[#e65540]" href="">Home <IoChevronForwardSharp /></Link>
+                    <Link className="hover:text-[#e65540]" href="">Create Account</Link>
                 </div>
                 <div className="pl-43 pr-43 ">
                     <div className="w-full   ">

@@ -10,6 +10,7 @@ import images from "../constant";
 
 
 
+
 function Navbar() {
     return (
         <nav id="/" className=" fixed top-0 left-0 w-full z-50">

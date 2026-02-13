@@ -54,7 +54,7 @@ function Signin() {
                             <span className="text-[#aeb3b2]">Register Account</span>
                             <p className="text-[#888888]">By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.</p>
                         </div>
-                        <Link to={"/Singup"}><button className="w-30 h-10 bg-black text-white">continue</button></Link>
+                        <Link to={"/signup"}><button className="w-30 h-10 bg-black text-white">continue</button></Link>
                     </div>
                     <div className="border w-full h-100 p-10 flex flex-col gap-y-2 ">
                         <h3 className="text-4xl">Returning Customer</h3>
@@ -67,7 +67,7 @@ function Signin() {
                         <div className="flex gap-5 items-center">
                             <button onClick={signin} className="w-30 h-10 bg-black text-white">SIGN IN </button>
                             <span>or</span>
-                            <Link to={"/"} ><p className="hover:text-[#e65540]">Return to Store</p></Link>
+                            <Link to={"/signup"} ><p className="hover:text-[#e65540]">Return to Store</p></Link>
                         </div>
                     </div>
                 </div>
