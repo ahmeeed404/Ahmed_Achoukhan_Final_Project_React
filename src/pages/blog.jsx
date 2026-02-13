@@ -5,10 +5,11 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { BlogContext } from "../components/blog/blogContext";
 import images from "../constant";
+import products from "../data/shop/shop";
 
 function Blog() {
   const { blogs } = useContext(BlogContext);
-  const [page, setPage] = useState(1); 
+  const [page, setPage] = useState(1);
 
   const animation = {
     initial: { backgroundSize: "100% 100%" },
@@ -20,12 +21,11 @@ function Blog() {
     return <div className="text-center py-20">No Blogs Found</div>;
   }
 
-
   let visibleBlogs = [];
   if (page === 1) {
     visibleBlogs = blogs.slice(0, 2);
   } else if (page === 2) {
-    visibleBlogs = blogs.slice(2, 3); 
+    visibleBlogs = blogs.slice(2, 3);
   }
 
   return (
@@ -118,26 +118,33 @@ function Blog() {
               <h3 className="text-xl font-bold text-gray-900 mb-6">
                 Featured Posts
               </h3>
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-900 mb-6">
+                  Featured Products
+                </h3>
 
-              <div className="space-y-4">
-                {blogs.slice(0, 4).map((blog) => (
-                  <Link
-                    key={blog.id}
-                    to={`/Details/${blog.id}`}
-                    className="flex gap-4 hover:opacity-80 transition-opacity"
-                  >
-                    <img
-                      src={blog.image}
-                      alt={blog.title}
-                      className="w-20 h-20 object-cover rounded"
-                    />
-                    <div>
-                      <h4 className="text-sm text-gray-900">
-                        {blog.title.substring(0, 40)}...
-                      </h4>
-                    </div>
-                  </Link>
-                ))}
+                <div className="space-y-4">
+                  {products.slice(0, 5).map((product) => (
+                    <Link
+                      key={product.id}
+                      className="flex gap-4 hover:opacity-80 transition-opacity"
+                    >
+                      <img
+                        src={product.image} 
+                        alt={product.title}
+                        className="w-20 h-20 object-cover rounded"
+                      />
+                      <div>
+                        <h4 className="text-sm text-gray-900">
+                          {product.title.substring(0, 40)}...
+                        </h4>
+                        <p className="text-red-500 font-semibold">
+                          ${product.price}
+                        </p>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
               </div>
             </div>
 
