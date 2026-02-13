@@ -6,9 +6,10 @@ import Home from "./pages/home";
 import Shop from "./pages/shop";
 import Sale from "./pages/sale";
 import Features from "./pages/featured";
-// import Blog from "./pages/blog";
+import Blog from "./pages/blog";
 import Contact from "./pages/contact";
 import About from "./pages/about";
+import Details from "./components/blog/detail";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <Route path="/shop" element={<Shop />} />
       <Route path="/Sale" element={<Sale />} />
       <Route path="/featured" element={<Features />} />
-      {/* <Route path="/blog" element={<Blog />} /> */}
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/details/:id" element={<Details />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>

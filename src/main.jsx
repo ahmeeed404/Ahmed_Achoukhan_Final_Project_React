@@ -5,11 +5,15 @@ import './index.css';
 import "flowbite";
 import App from './App.jsx';
 import { BrowserRouter } from 'react-router-dom';
+import { BlogProvider } from './components/blog/blogContext.jsx';
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <App />
+        <BlogProvider>   
+        <App />
+      </BlogProvider>
     </BrowserRouter>
   </StrictMode>
 );
