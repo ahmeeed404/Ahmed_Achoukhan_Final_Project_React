@@ -49,7 +49,7 @@ function Navbar() {
                     <Link to={"/featured/"} className=" hover:text-[#e65540]" href="">Features</Link>
                     <Link to={"/Blog/"} className=" hover:text-[#e65540]" href="">Blog</Link>
                     <Link className=" hover:text-[#e65540]" href="">About</Link>
-                    <Link className=" hover:text-[#e65540]" href="">Contact</Link>
+                    <Link to={"/contact"} className=" hover:text-[#e65540]" href="">Contact</Link>
                 </div>
                 <div className="flex items-center gap-5">
                     <a className="text-4xl text-gray-500" href=""><FaRegUserCircle/></a>
