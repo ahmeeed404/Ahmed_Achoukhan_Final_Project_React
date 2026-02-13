@@ -43,11 +43,11 @@ function Navbar() {
                     <img src={images.logo} alt="logo" />
                 </div>
                 <div className="flex gap-5">
-                    <Link to= "/" className=" hover:text-[#e65540]" href="" >Home</Link>
-                    <Link to={"shop"} className=" hover:text-[#e65540]" href="">Shop</Link>
-                    <Link className=" hover:text-[#e65540]" href="">Sale</Link>
-                    <Link className=" hover:text-[#e65540]" href="">Features</Link>
-                    <Link className=" hover:text-[#e65540]" href="">Blog</Link>
+                    <Link to= {"/"} className=" hover:text-[#e65540]" href="" >Home</Link>
+                    <Link to={"/shop/"} className=" hover:text-[#e65540]" href="">Shop</Link>
+                    <Link to={"/sale/"} className=" hover:text-[#e65540]" href="">Sale</Link>
+                    <Link to={"/featured/"} className=" hover:text-[#e65540]" href="">Features</Link>
+                    <Link to={"/Blog/"} className=" hover:text-[#e65540]" href="">Blog</Link>
                     <Link className=" hover:text-[#e65540]" href="">About</Link>
                     <Link className=" hover:text-[#e65540]" href="">Contact</Link>
                 </div>
