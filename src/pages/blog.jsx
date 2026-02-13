@@ -32,7 +32,7 @@ function Blog() {
     <div>
       <Navbar />
 
-      <div className="container mx-auto px-4 py-8 md:py-12">
+      <div className=" container mx-auto px-4 py-8 md:py-12">
         <div
           className="relative h-32 md:h-50 mb-12 overflow-hidden rounded-lg bg-cover bg-center"
           style={{ backgroundImage: `url(${images.blog2})` }}
@@ -44,7 +44,7 @@ function Blog() {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-8">
+        <div className="flex px-[10vw] flex-col lg:flex-row gap-8">
           <div className="w-full lg:w-2/3">
             {visibleBlogs.map((blog) => {
               const parts = blog.p1?.split("|") || [];
@@ -97,7 +97,7 @@ function Blog() {
               {page === 1 && blogs.length > 2 && (
                 <button
                   onClick={() => setPage(2)}
-                  className="px-6 py-2 bg-blue-300 text-white rounded hover:bg-blue-300"
+                  className="px-6 py-2 bg-blue-300 text-white  hover:bg-blue-300"
                 >
                   Next Page
                 </button>
@@ -105,7 +105,7 @@ function Blog() {
               {page === 2 && (
                 <button
                   onClick={() => setPage(1)}
-                  className="px-6 py-2 bg-gray-300 text-gray-700 rounded hover:bg-gray-400"
+                  className="px-6 py-2 bg-gray-300 text-gray-700   hover:bg-gray-400"
                 >
                   Previous Page
                 </button>
@@ -115,9 +115,7 @@ function Blog() {
 
           <div className="w-full lg:w-1/3">
             <div className="mb-8">
-              <h3 className="text-xl font-bold text-gray-900 mb-6">
-                Featured Posts
-              </h3>
+              
               <div className="mb-8">
                 <h3 className="text-xl font-bold text-gray-900 mb-6">
                   Featured Products

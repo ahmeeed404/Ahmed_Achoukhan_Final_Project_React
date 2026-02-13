@@ -12,7 +12,7 @@ import images from "../constant";
 
 function Navbar() {
     return (
-        <nav className=" ">
+        <nav id="/" className=" fixed top-0 left-0 w-full z-50">
             <div className="flex items-center justify-between bg-[#f5f5f5]  p-3 pl-10 pr-10">
                 <div className="flex gap-5">
                     <a className="text-2xl text-gray-500  hover:text-[#e65540] " href="">{<FaFacebookF />}</a>
@@ -52,7 +52,7 @@ function Navbar() {
                     <Link to={"/contact"} className=" hover:text-[#e65540]" href="">Contact</Link>
                 </div>
                 <div className="flex items-center gap-5">
-                    <Link className="text-2xl text-gray-500" href=""><FaRegUserCircle/></Link>
+                    <Link to={"login"} className="text-2xl text-gray-500" href=""><FaRegUserCircle/></Link>
                     <span className="w-0.5 h-5 bg-gray-500"></span>
                     <Link className="text-2xl text-gray-500" href=""><MdOutlineShoppingBag/></Link>
                 </div>

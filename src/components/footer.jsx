@@ -69,8 +69,9 @@ function Footer() {
             <div className="flex justify-center items-center">
                <h1><span className="text-sm text-gray-400">Copyright Â© 2022</span> Shopify Theme Developed by MassTechnologist <span className="text-sm text-gray-400">All rights reserved.</span> </h1>
             </div>
-         <a href="#topo" className="fixed right-10 bottom-10 w-10 h-10 rounded bg-amber-700 text-amber-50 flex items-center justify-center scroll-smooth shadow">
-        <MdKeyboardDoubleArrowUp className="text-xl"/>
+                
+            <a href="#topo" className="fixed right-10 bottom-10 w-10 h-10 rounded bg-amber-700 text-amber-50 flex items-center justify-center scroll-smooth shadow">
+                <MdKeyboardDoubleArrowUp className="text-xl"/>
             </a>
         </div>
     )
